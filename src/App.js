@@ -1,15 +1,15 @@
-import React from 'react'
-import Login from './Pages/Login'
-import Quizz from './Components/Quizz'
+import React from "react";
+import Login from "./Pages/Login";
+import Quizz from "./Components/Quizz";
+import Otp from "./Components/Otp";
 
 const App = () => {
   return (
     <div>
       {/* <Login/> */}
-      <Quizz/>
-     
+      <Otp />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
