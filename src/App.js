@@ -5,8 +5,8 @@ import Quizz from './Components/Quizz'
 const App = () => {
   return (
     <div>
-      <Login/>
-      {/* <Quizz/> */}
+      {/* <Login/> */}
+      <Quizz/>
      
     </div>
   )
