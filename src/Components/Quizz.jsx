@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { QuizData } from '../Data/QuizData'
 import QuizResult from './QuizResult';
+import image from '../Assets/bbb.png'
 function Quizz() {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
@@ -29,8 +30,8 @@ function Quizz() {
     }
     return (
         <div>
-            <div className="container-fluid" style={{ height: '30vh', backgroundImage: `url(${new URL('https://img.freepik.com/free-vector/hand-drawn-question-mark-pattern_23-2149416651.jpg?w=740&t=st=1713277473~exp=1713278073~hmac=c47e02ec4d4a00ef996d8b8761da74eb44cd00835006293e2d12d2dd44443529')})` }}></div>
-            <div className='container mx-auto text-center ' style={{marginTop:'-100px', backgroundColor:'white',borderRadius:'20px',backfaceVisibility:'0.2'}}>
+            <div className="container-fluid" style={{ height: '30vh', backgroundImage: `url(${image})` }}></div>
+            <div className='container mx-auto text-center  shadow-xl ' style={{marginTop:'-100px', backgroundColor:'white',borderRadius:'20px',backfaceVisibility:'0.2'}}>
                 <p className="heading-txt text-center text-6xl py-5 my-5">Quiz APP</p>
                 <div className="container">
                     {showResult ? (
@@ -41,12 +42,12 @@ function Quizz() {
                                 <span id="question-number">{currentQuestion + 1}. </span>
                                 <span id="question-txt">{QuizData[currentQuestion].question}</span>
                             </div>
-                            <div className="container items-center  gap-x-20 grid gap-4 grid-cols-2 sm:text-m md:text-xl font-medium">
+                            <div className="container items-center  gap-x-20 grid gap-4 md:grid-cols-2 sm:grid-cols-1 sm:text-m md:text-xl font-medium px-10">
                                 {QuizData[currentQuestion].options.map((option, i) => {
                                     return (
                                         <button style={{borderRadius:'10px',padding: '20px 0px 20px 0px'}} 
                                             // className="option-btn"
-                                            className={`min-w-40  border border-gray-950 option-btn ${clickedOption == i + 1 ? "checked" : null
+                                            className={`min-w-40  border  option-btn ${clickedOption == i + 1 ? "checked" : null
                                                 }`}
                                             key={i}
                                             onClick={() => setClickedOption(i + 1)}
@@ -56,7 +57,7 @@ function Quizz() {
                                     )
                                 })}
                             </div>
-                            <input className='text-xl my-10' type="button" value="Next" id="next-button" onClick={changeQuestion} />
+                            <button className='text-xl py-2 px-10 bg-orange-400 text-white border-solid  rounded-xl shadow-xl sm:my-6 md:my-10 xsm:my-5' type="button" value="Next" id="next-button" onClick={changeQuestion} >Next</button>
                         </>)}
                 </div>
             </div>

@@ -13,7 +13,7 @@ const Main = () => {
             <button className=" py-3 bg-slate-100 py-3 text-left px-4  border-solid rounded-xl shadow-lg sm:my-2 md:my-1"><span>Students</span><br />Play &gt;</button>
           </div>
         </div>
-        <div className="flex justify-left items-center ">
+        <div className="flex justify-left items-center flex justify-center">
           <img  className="w-[400px]" src={image} alt="" srcset="" />
         </div>
       </div>
