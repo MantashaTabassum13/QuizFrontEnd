@@ -10,6 +10,7 @@ export default function Example({ setValue }) {
     email: '',
     phoneNumber: ''
   });
+
  
 
   const handleChange = (e) => {
@@ -122,3 +123,5 @@ export default function Example({ setValue }) {
     </div>
   );
 }
+
+
