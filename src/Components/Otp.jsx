@@ -4,9 +4,7 @@
     3. Render Login component in index.js. */
 
 import React, { useEffect, useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
-import Quizz from "../Pages/Quizz";
-import Home from "../Pages/Home";
+import { useNavigate } from "react-router-dom";
 // import QuizPage from "./QuizPage";
 
 
