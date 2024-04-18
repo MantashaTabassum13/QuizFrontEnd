@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-export default function Example({ setValue }) {
+export default function Example() {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',

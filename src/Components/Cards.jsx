@@ -1,5 +1,6 @@
 import React from 'react';
 import AllQuiz from '../Data/AllQuiz';
+import { Link } from 'react-router-dom';
 // import Card from './Card';
 
 const Cards = () => {
@@ -12,7 +13,9 @@ const Cards = () => {
                 <p className="text-gray-700 text-base">{quiz.desc}</p>
             </div>
             <div className="px-6 pt-4 pb-2">
+                <Link to={quiz.url}>
                 <button>Play Quiz</button>
+                </Link>
             </div>
         </div>
     ));
