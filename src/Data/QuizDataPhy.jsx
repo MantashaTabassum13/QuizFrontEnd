@@ -1,22 +1,56 @@
-export const QuizData = [
-    {
-        question: "Which language runs in a web browser?",
-        options:[ "Java", "C", "Python", "JavaScript"],
-        answer: 4
-    },
-    {
-        question: "What does CSS stand for?",
-        options:["Central Style Sheets", "Cascading Style Sheets", "Cascading Simple Sheets", "Cars SUVs Sailboats"],
-        answer: 2
-    },
-    {
-        question: "What does HTML stand for?",
-        options: ["Hypertext Markup Language", "Hypertext Markdown Language", "Hyperloop Machine Language", "Helicopters Terminals Motorboats Lamborginis"],
-        answer: 1
-    },
-    {
-        question: "What year was JavaScript launched?",
-        options: ["1996", "1995", "1994", "none of the above"],
-        answer:2
-    },
+export const QuizDataPhy = [
+    
+        {
+            "question": "Which of the following is NOT a vector quantity?",
+            "options": [
+                "Force",
+                "Velocity",
+                "Energy",
+                "Displacement"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "The process of transfer of heat from a hotter body to a colder body without the actual movement of molecules is called:",
+            "options": [
+                "Conduction",
+                "Convection",
+                "Radiation",
+                "Insulation"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Which of the following is a unit of electric current?",
+            "options": [
+                "Joule",
+                "Volt",
+                "Ampere",
+                "Ohm"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "According to Ohm's law, the current passing through a conductor is directly proportional to the:",
+            "options": [
+                "Voltage across the conductor",
+                "Resistance of the conductor",
+                "Length of the conductor",
+                "Temperature of the conductor"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "The phenomenon of splitting of light into its constituent colors when it passes through a prism is called:",
+            "options": [
+                "Reflection",
+                "Dispersion",
+                "Refraction",
+                "Diffraction"
+            ],
+            "answer": 2
+        }
+    
 ];
+
+
