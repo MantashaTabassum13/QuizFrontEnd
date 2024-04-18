@@ -9,7 +9,7 @@ const Cards = () => {
         <div key={quiz.id} className="max-w-sm rounded overflow-hidden shadow-lg">
             <img className="w-full h-50" src={quiz.img} alt={`Quiz ${quiz.id}`} />
             <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">Quiz {quiz.id}</div>
+                <div className="font-bold text-xl mb-2">Quiz {quiz.id} {quiz.nn} </div>
                 <p className="text-gray-700 text-base">{quiz.desc}</p>
             </div>
             <div className="px-6 pt-4 pb-2">
