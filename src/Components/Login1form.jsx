@@ -1,5 +1,6 @@
 
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 // import { ChevronDownIcon } from '@heroicons/react/20/solid'
 // import { Switch } from '@headlessui/react'
 
@@ -7,7 +8,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Example({setvalu1e}) {
   const [agreed, setAgreed] = useState(false)
 
   return (
@@ -102,12 +103,12 @@ export default function Example() {
 
         </div>
         <div className="mt-10">
-          <button
+          <Link to='/otp'><button
             type="submit"
             className="block w-full rounded-md bg-orange-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Submit
-          </button>
+          </button></Link>
         </div>
       </form>
     </div>

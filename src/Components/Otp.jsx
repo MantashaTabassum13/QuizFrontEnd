@@ -4,10 +4,18 @@
     3. Render Login component in index.js. */
 
 import React, { useEffect, useState } from "react";
-import Quizz from "./Quizz";
+import { Navigate, useNavigate } from "react-router-dom";
+import Quizz from "../Pages/Quizz";
+import Home from "../Pages/Home";
 // import QuizPage from "./QuizPage";
 
-const Otp = () => {
+
+
+
+
+const Otp = ({setValue}) => {
+
+  const navigate = useNavigate()
   const searchParams = new URLSearchParams(window.location.search);
   const accessToken = searchParams.get("access_token");
 
@@ -51,12 +59,13 @@ const Otp = () => {
         phoneNo: responseData.phone_no,
         phEmailJwt: phEmailJwt,
       });
-
+      setValue(true)
       // Set cookie with 180-day expiration
       const cookieExpire = new Date(
         Date.now() + 180 * 24 * 60 * 60 * 1000
       ).toUTCString();
       document.cookie = `ph_email_jwt=${phEmailJwt}; expires=${cookieExpire}; path=/`;
+      navigate('/')
 
       // Register User: As the user phone number has been verified successfully. If user corrosponding to this verified  mobile number does not exist in your user table then register the user by creating a row in user table. If user already exists then simply continue to the next step.
 
@@ -217,7 +226,7 @@ const Otp = () => {
                     </button>
                   </div> */}
           {/* <QuizPage /> */}
-          <Quizz />
+          {/* <Home/> */}
         </div>
       )}
     </React.Fragment>
