@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { QuizDataPhy } from '../Data/QuizDataPhy'
+import { QuizDataM } from '../Data/QuizDataM'
 import QuizResult from './QuizResult';
 import image from '../Assets/bbb.png'
 function QuizzPhy() {
@@ -10,7 +10,7 @@ function QuizzPhy() {
 
     const changeQuestion = () => {
         updateScore();
-        if (currentQuestion < QuizDataPhy.length - 1) {
+        if (currentQuestion < QuizDataM.length - 1) {
             setCurrentQuestion(currentQuestion + 1);
             setClickedOption(0);
         } else {
@@ -18,7 +18,7 @@ function QuizzPhy() {
         }
     }
     const updateScore = () => {
-        if (clickedOption === QuizDataPhy[currentQuestion].answer) {
+        if (clickedOption === QuizDataM[currentQuestion].answer) {
             setScore(score + 1);
         }
     }
@@ -35,15 +35,15 @@ function QuizzPhy() {
                 <p className="heading-txt text-center text-6xl py-5 my-5">Quiz APP</p>
                 <div className="container">
                     {showResult ? (
-                        <QuizResult score={score} totalScore={QuizDataPhy.length} tryAgain={resetAll} />
+                        <QuizResult score={score} totalScore={QuizDataM.length} tryAgain={resetAll} />
                     ) : (
                         <>
                             <div className="question  text-2xl pb-10 font-semibold">
                                 <span id="question-number">{currentQuestion + 1}. </span>
-                                <span id="question-txt">{QuizDataPhy[currentQuestion].question}</span>
+                                <span id="question-txt">{QuizDataM[currentQuestion].question}</span>
                             </div>
                             <div className="container items-center  gap-x-20 grid gap-4 md:grid-cols-2 sm:grid-cols-1 sm:text-m md:text-xl font-medium px-10">
-                                {QuizDataPhy[currentQuestion].options.map((option, i) => {
+                                {QuizDataM[currentQuestion].options.map((option, i) => {
                                     return (
                                         <button style={{borderRadius:'10px',padding: '20px 0px 20px 0px'}} 
                                             // className="option-btn"
