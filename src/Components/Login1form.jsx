@@ -72,7 +72,7 @@ export default function Example({setvalu1e}) {
               <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
                 Phone number
               </label>
-              <button className='rounded-md bg-orange-400 px-3.5 py-2 xsm:my-4 sm:my-0 text-center text-sm font-semibold text-white' style={{ width: '100px' }}>Get OTP</button>
+              {/* <button className='rounded-md bg-orange-400 px-3.5 py-2 xsm:my-4 sm:my-0 text-center text-sm font-semibold text-white' style={{ width: '100px' }}>Get OTP</button> */}
             </div>
             <div className="relative mt-2.5">
               <div className="absolute inset-y-0 left-0 flex items-center">
@@ -86,7 +86,7 @@ export default function Example({setvalu1e}) {
               />
             </div>
           </div>
-          <div className="sm:col-span-2">
+          {/* <div className="sm:col-span-2">
             <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
               Write OTP
             </label>
@@ -99,7 +99,7 @@ export default function Example({setvalu1e}) {
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
-          </div>
+          </div> */}
 
         </div>
         <div className="mt-10">
