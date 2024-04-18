@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { QuizDataChem } from '../Data/QuizDataChem'
 import QuizResult from './QuizResult';
 import image from '../Assets/bbb.png'
+import Navbar from '../Components/Common/Navbar';
 function QuizzChem() {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
@@ -30,6 +31,7 @@ function QuizzChem() {
     }
     return (
         <div>
+            <Navbar/>
             <div className="container-fluid" style={{ height: '30vh', backgroundImage: `url(${image})` }}></div>
             <div className='container mx-auto text-center  shadow-xl ' style={{marginTop:'-100px', backgroundColor:'white',borderRadius:'20px',backfaceVisibility:'0.2'}}>
                 <p className="heading-txt text-center text-6xl py-5 my-5">Quiz APP</p>

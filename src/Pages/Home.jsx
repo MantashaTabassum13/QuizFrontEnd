@@ -1,7 +1,7 @@
 import React from 'react'
 import Main from '../Components/Main'
 import  Cards  from '../Components/Cards'
-import Navbar from '../Components/Common/Navbar'
+// import Navbar from '../Components/Common/Navbar'
 
 const Home = () => {
   return (

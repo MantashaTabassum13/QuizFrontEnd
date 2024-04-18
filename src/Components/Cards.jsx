@@ -1,7 +1,6 @@
 import React from 'react';
 import AllQuiz from '../Data/AllQuiz';
 import { Link } from 'react-router-dom';
-// import Card from './Card';
 
 const Cards = () => {
     // Map each quiz item from AllQuiz array to a Card component
@@ -14,16 +13,18 @@ const Cards = () => {
             </div>
             <div className="px-6 pt-4 pb-2">
                 <Link to={quiz.url}>
-                <button>Play Quiz</button>
+                    <button>Play Quiz</button>
                 </Link>
             </div>
         </div>
     ));
 
     return (
-        <div className=' mx-auto container grid lg:grid-cols-4  sm:grid-cols-2 gap-10 my-5 sm:text-center flex justify-center'>
-            {quizCards}
-        </div>
+        <>
+           
+            <div className=' mx-auto container grid lg:grid-cols-4  sm:grid-cols-2 gap-10 my-5 sm:text-center flex justify-center'>
+                {quizCards}
+            </div></>
     );
 };
 

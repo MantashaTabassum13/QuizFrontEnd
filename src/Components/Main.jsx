@@ -1,8 +1,10 @@
 import React from 'react'
 import image from '../Assets/imm.png'
+
 const Main = () => {
   return (
     <div>
+     
       <div className="container mx-auto max-w-[1200px] grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 py-5 gap-4 ">
         <div className=" mx-auto sm:text-center md:text-left my-5 ">
           <h1 className='text-6xl font-bold py-5'>Quiz: Discover<br />wisdom in bites.</h1>
