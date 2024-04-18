@@ -27,6 +27,8 @@ export default function Example({ setValue }) {
     for (const key in formData) {
       if (!formData[key]) {
         toast.error(`Please fill in ${key.replace(/([A-Z])/g, ' $1').toLowerCase()}.`);
+      if (formData[key] == '') {
+        toast.error('Please fill in all fields.');
         return;
       }
     }

@@ -5,6 +5,9 @@ import Login from './Pages/Login';
 import Quizz from './Pages/Quizz';
 import { useState } from 'react';
 import PrivateRoutes from './PrivateRoutes';
+import QuizzPhy from './Pages/QuizzPhy';
+import QuizzChem from './Pages/QuizzChem';
+import QuizzM from './Pages/QuizzM';
 
 
 function App() {
@@ -18,7 +21,10 @@ function App() {
       </Route>
       <Route path="/signup" element={<Login />} />
       <Route path="/otp" element={<Otp setValue={setValue} />} />
-      <Route path='q1' element={<Quizz />} />
+      <Route path='/q1' element={<Quizz />} />
+      <Route path='/q2' element={<QuizzPhy />} />
+      <Route path='/q3' element={<QuizzChem />} />
+      <Route path='/q4' element={<QuizzM />} />
     </Routes>
   );
 }
