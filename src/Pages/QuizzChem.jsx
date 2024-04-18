@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { QuizDataChem } from '../Data/QuizDataChem'
 import QuizResult from './QuizResult';
 import image from '../Assets/bbb.png'
-function QuizzPhy() {
+function QuizzChem() {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
     const [clickedOption, setClickedOption] = useState(0);
@@ -65,4 +65,4 @@ function QuizzPhy() {
     )
 }
 
-export default QuizzPhy
+export default QuizzChem

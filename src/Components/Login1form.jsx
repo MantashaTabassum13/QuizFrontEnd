@@ -21,7 +21,7 @@ export default function Example({ setValue }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     for (const key in formData) {
-      if (formData[key] === '') {
+      if (formData[key] == '') {
         toast.error('Please fill in all fields.');
         return;
       }
