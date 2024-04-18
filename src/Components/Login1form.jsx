@@ -1,8 +1,9 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
-import Otp from './Otp';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-export default function Example({setValue}) {
+export default function Example({ setValue }) {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -19,14 +20,13 @@ export default function Example({setValue}) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Check if any field is empty
     for (const key in formData) {
       if (formData[key] === '') {
-        alert('Please fill in all fields.');
+        toast.error('Please fill in all fields.');
         return;
       }
     }
-    // Redirect to OTP component
+
     setValue(formData);
   };
 
@@ -105,15 +105,16 @@ export default function Example({setValue}) {
         </div>
         <div className="mt-10">
           <Link to='/otp'>
-          <button
-            type="submit"
-            className="block w-full rounded-md bg-orange-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          >
-            Submit
-          </button>
+            <button
+              type="submit"
+              className="block w-full rounded-md bg-orange-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              Submit
+            </button>
           </Link>
         </div>
       </form>
+      <ToastContainer />
     </div>
   )
 }
