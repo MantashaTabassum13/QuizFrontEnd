@@ -11,14 +11,20 @@ import QuizzM from './Pages/QuizzM';
 import Cards from './Components/Cards';
 
 
+
 function App() {
   const [value, setValue] = useState(false)
+
+    // useEffect(() => {
+    //     // Redirect to the home page when the app is refreshed
+    //     window.location.href = '/';
+    // }, []);
 
   return (
 
     <Routes>
       <Route element={<PrivateRoutes value={value} />}>
-        <Route path="/" element={<Home />} exact />
+        <Route path="/" exact element={<Home />} />
       </Route>
       <Route path="/signup" element={<Login />} />
       <Route path="/otp" element={<Otp setValue={setValue} />} />
@@ -27,6 +33,7 @@ function App() {
       <Route path='/q3' element={<QuizzChem />} />
       <Route path='/q4' element={<QuizzM />} />
       <Route path='/all' element={<Cards/>}/>
+      {/* <Redirect to="/" /> */}
     </Routes>
   );
 }

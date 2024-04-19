@@ -1,14 +1,18 @@
- const AllQuiz = [
+// import React from 'react';
+import im1 from '../Assets/web.jpg'
+import im2 from '../Assets/physics.jpg'
+import im4 from '../Assets/maths.jpg'
+const AllQuiz = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/890065/pexels-photo-890065.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img: im1,
       desc: "Test your knowledge on various subjects with our challenging quizzes!",
       url: "/q1",
       nn:"Web"
     },
     {
       id: 2,
-      img: "https://img.freepik.com/free-vector/astronomy-concept-with-retro-science-cartoon-icons-set_1284-7503.jpg?t=st=1713444781~exp=1713448381~hmac=876c7d3d1bd102fc93550ccf8e3165bf933e899620b97d2f29373d207310b30d&w=740",
+      img: im2,
       desc: "Expand your mind and have fun with our collection of brain-teasing quizzes!",
       url: "/q2",
       nn:"Physics"
@@ -22,7 +26,7 @@
     },
     {
       id: 4,
-      img: "https://img.freepik.com/free-vector/math-science-concept-with-school-lesson-items-retro-cartoon-style_1284-8084.jpg?t=st=1713444861~exp=1713448461~hmac=59fbefe16abdd0fac7e62bc58823d389332edb5f7ff5584e04d24cc97bb57546&w=740",
+      img:im4,
       desc: "Put your knowledge to the test with our fun and educational quizzes!",
       url: "/q4",
       nn:"Maths"
