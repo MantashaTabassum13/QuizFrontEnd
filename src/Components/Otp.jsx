@@ -6,7 +6,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 // import QuizPage from "./QuizPage";
-
+import image from '../Assets/sviet.png'
 
 
 
@@ -121,22 +121,22 @@ const Otp = ({setValue}) => {
             <img
               className="phe-login-img"
               width="250px"
-              src="https://img.freepik.com/premium-vector/quiz-comic-pop-art-style_175838-505.jpg"
+              src={image}
               alt="phone email login demo"
             />
-            <h1 style={{ margin: "10px" }}>Sign In</h1>
-            <p style={{ color: "#a6a6a6" }}>Welcome to Sign In with Phone</p>
-            <button
+            <h1 className="pt-4 " style={{ margin: "10px" }}>Sign In From Below</h1>
+            <p className="xsm:pb-4" style={{ color: "#a6a6a6" }}>Welcome to Sign In with Phone</p>
+            <button className="text-xl xsm:pt-2"
               style={{
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 padding: "14px 20px",
-                backgroundColor: "black",
+                backgroundColor: "orange",
                 fontWeight: "bold",
                 color: "#ffffff",
                 border: "none",
-                borderRadius: "3px",
+                borderRadius: "20px",
                 fontSize: "inherit",
                 cursor: "pointer",
                 maxWidth: "320px",
