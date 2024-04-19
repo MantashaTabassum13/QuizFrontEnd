@@ -1,5 +1,4 @@
-export const QuizDataChem = 
-[
+export const QuizDataChem = [
     {
         "question": "Which of the following is NOT a noble gas?",
         "options": [
@@ -8,7 +7,7 @@ export const QuizDataChem =
             "C) Argon",
             "D) Chlorine"
         ],
-        "answer": "D"
+        "answer": 4
     },
     {
         "question": "The chemical formula for sodium chloride is:",
@@ -18,7 +17,7 @@ export const QuizDataChem =
             "C) NaCl2",
             "D) Na2Cl2"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "The process of conversion of a solid directly into vapor without passing through the liquid state is called:",
@@ -28,7 +27,7 @@ export const QuizDataChem =
             "C) Condensation",
             "D) Deposition"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "The pH of a neutral solution is:",
@@ -38,7 +37,7 @@ export const QuizDataChem =
             "C) 14",
             "D) -7"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "The process of conversion of glucose into alcohol in the absence of oxygen is called:",
@@ -48,7 +47,7 @@ export const QuizDataChem =
             "C) Reduction",
             "D) Polymerization"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the chemical formula of water?",
@@ -58,7 +57,7 @@ export const QuizDataChem =
             "C) H2O",
             "D) HO2"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "Which of the following is a greenhouse gas?",
@@ -68,7 +67,7 @@ export const QuizDataChem =
             "C) Carbon dioxide",
             "D) Helium"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of carbon dioxide?",
@@ -78,7 +77,7 @@ export const QuizDataChem =
             "C) CO3",
             "D) C2O"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which element is present in all organic compounds?",
@@ -88,7 +87,7 @@ export const QuizDataChem =
             "C) Carbon",
             "D) Nitrogen"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "Which of the following is a transition metal?",
@@ -98,7 +97,7 @@ export const QuizDataChem =
             "C) Iron",
             "D) Potassium"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of sulfuric acid?",
@@ -108,7 +107,7 @@ export const QuizDataChem =
             "C) H2SO3",
             "D) H2SO4"
         ],
-        "answer": "D"
+        "answer": 4
     },
     {
         "question": "Which of the following is a halogen?",
@@ -118,7 +117,7 @@ export const QuizDataChem =
             "C) Sodium",
             "D) Potassium"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the chemical formula of ammonia?",
@@ -128,7 +127,7 @@ export const QuizDataChem =
             "C) NH4",
             "D) NH"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which gas is produced during photosynthesis?",
@@ -138,7 +137,7 @@ export const QuizDataChem =
             "C) Nitrogen",
             "D) Hydrogen"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which element is the most abundant in the Earth's crust?",
@@ -148,7 +147,7 @@ export const QuizDataChem =
             "C) Carbon",
             "D) Hydrogen"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the chemical formula of methane?",
@@ -158,7 +157,7 @@ export const QuizDataChem =
             "C) CO2",
             "D) H2O"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which of the following is a noble gas?",
@@ -166,11 +165,9 @@ export const QuizDataChem =
             "A) Oxygen",
             "B) Hydrogen",
             "C) Helium",
-
-
             "D) Nitrogen"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of sodium hydroxide?",
@@ -180,7 +177,7 @@ export const QuizDataChem =
             "C) NaCl",
             "D) Na2O"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which of the following is a base?",
@@ -190,7 +187,7 @@ export const QuizDataChem =
             "C) Sodium hydroxide",
             "D) Sulfuric acid"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of hydrochloric acid?",
@@ -200,7 +197,7 @@ export const QuizDataChem =
             "C) HNO3",
             "D) H2O2"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which of the following is a metalloid?",
@@ -210,7 +207,7 @@ export const QuizDataChem =
             "C) Sodium",
             "D) Copper"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the chemical formula of carbon monoxide?",
@@ -220,7 +217,7 @@ export const QuizDataChem =
             "C) CO3",
             "D) C2O"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "Which of the following is a hydrocarbon?",
@@ -230,7 +227,7 @@ export const QuizDataChem =
             "C) CH4",
             "D) NaCl"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of sulfur dioxide?",
@@ -240,7 +237,7 @@ export const QuizDataChem =
             "C) SO4",
             "D) S2O"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "Which of the following is a metal?",
@@ -250,7 +247,7 @@ export const QuizDataChem =
             "C) Gold",
             "D) Silicon"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of carbonic acid?",
@@ -260,7 +257,7 @@ export const QuizDataChem =
             "C) NaHCO3",
             "D) HNO3"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which of the following is a non-metal?",
@@ -270,7 +267,7 @@ export const QuizDataChem =
             "C) Oxygen",
             "D) Iron"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of sulfuric acid?",
@@ -280,7 +277,7 @@ export const QuizDataChem =
             "C) H2SO3",
             "D) H2SO4"
         ],
-        "answer": "D"
+        "answer": 4
     },
     {
         "question": "Which of the following is a compound?",
@@ -290,7 +287,7 @@ export const QuizDataChem =
             "C) Water",
             "D) Helium"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of sodium carbonate?",
@@ -300,7 +297,7 @@ export const QuizDataChem =
             "C) Na2CO3",
             "D) NaOH"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "Which of the following is an alloy?",
@@ -310,7 +307,7 @@ export const QuizDataChem =
             "C) Bronze",
             "D) Aluminum"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of hydrobromic acid?",
@@ -320,7 +317,7 @@ export const QuizDataChem =
             "C) HNO3",
             "D) HCl"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which of the following is a diatomic molecule?",
@@ -330,7 +327,7 @@ export const QuizDataChem =
             "C) Argon",
             "D) Neon"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the chemical formula of sulfur hexafluoride?",
@@ -340,7 +337,7 @@ export const QuizDataChem =
             "C) SF3",
             "D) SF2"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "Which of the following is a transition metal?",
@@ -350,7 +347,7 @@ export const QuizDataChem =
             "C) Iron",
             "D) Potassium"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of nitric acid?",
@@ -360,7 +357,7 @@ export const QuizDataChem =
             "C) HCl",
             "D) H2CO3"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which of the following is a halogen?",
@@ -370,7 +367,7 @@ export const QuizDataChem =
             "C) Sodium",
             "D) Potassium"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the chemical formula of acetic acid?",
@@ -380,7 +377,7 @@ export const QuizDataChem =
             "C) HNO3",
             "D) NaCl"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which gas is produced during respiration?",
@@ -390,7 +387,7 @@ export const QuizDataChem =
             "C) Nitrogen",
             "D) Hydrogen"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the chemical formula of hydrogen sulfide?",
@@ -400,7 +397,7 @@ export const QuizDataChem =
             "C) HNO3",
             "D) H2SO4"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which of the following is a metalloid?",
@@ -410,7 +407,7 @@ export const QuizDataChem =
             "C) Sodium",
             "D) Copper"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the chemical formula of carbon monoxide?",
@@ -420,7 +417,7 @@ export const QuizDataChem =
             "C) CO3",
             "D) C2O"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "Which of the following is a hydrocarbon?",
@@ -430,7 +427,7 @@ export const QuizDataChem =
             "C) CH4",
             "D) NaCl"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of sulfur dioxide?",
@@ -440,7 +437,7 @@ export const QuizDataChem =
             "C) SO4",
             "D) S2O"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "Which of the following is a metal?",
@@ -450,7 +447,7 @@ export const QuizDataChem =
             "C) Gold",
             "D) Silicon"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the chemical formula of carbonic acid?",
@@ -460,7 +457,7 @@ export const QuizDataChem =
             "C) NaHCO3",
             "D) HNO3"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "Which of the following is a non-metal?",
@@ -470,206 +467,6 @@ export const QuizDataChem =
             "C) Oxygen",
             "D) Iron"
         ],
-        "answer": "C"
-    },
-    {
-        "question": "What is the chemical formula of sulfuric acid?",
-        "options": [
-            "A) H2SO",
-            "B) H2SO2",
-            "C) H2SO3",
-            "D) H2SO4"
-        ],
-        "answer": "D"
-    },
-    {
-        "question": "Which of the following is a compound?",
-        "options": [
-            "A) Neon",
-            "B) Oxygen",
-            "C) Water",
-            "D) Helium"
-        ],
-        "answer": "C"
-    },
-    {
-        "question": "What is the chemical formula of sodium carbonate?",
-        "options": [
-            "A) NaCO3",
-            "B) NaCl",
-            "C) Na2CO3",
-            "D) NaOH"
-        ],
-        "answer": "C"
-    },
-    {
-        "question": "Which of the following is an alloy?",
-        "options": [
-            "A) Copper",
-            "B) Iron",
-            "C) Bronze",
-            "D) Aluminum"
-        ],
-        "answer": "C"
-    },
-    {
-        "question": "What is the chemical formula of hydrobromic acid?",
-        "options": [
-            "A) HBr",
-            "B) H2SO4",
-            "C) HNO3",
-            "D) HCl"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "Which of the following is a diatomic molecule?",
-        "options": [
-            "A) Helium",
-            "B) Oxygen",
-            "C) Argon",
-            "D) Neon"
-        ],
-        "answer": "B"
-    },
-    {
-        "question": "What is the chemical formula of sulfur hexafluoride?",
-        "options": [
-            "A) SF4",
-            "B) SF6",
-            "C) SF3",
-            "D) SF2"
-        ],
-        "answer": "B"
-    },
-    {
-        "question": "Which of the following is a transition metal?",
-        "options": [
-            "A) Sodium",
-            "B) Calcium",
-            "C) Iron",
-            "D) Potassium"
-        ],
-        "answer": "C"
-    },
-    {
-        "question": "What is the chemical formula of nitric acid?",
-        "options": [
-            "A) HNO3",
-            "B) H2SO4",
-            "C) HCl",
-            "D) H2CO3"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "Which of the following is a halogen?",
-        "options": [
-            "A) Fluorine",
-            "B) Lithium",
-            "C) Sodium",
-            "D) Potassium"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "What is the chemical formula of acetic acid?",
-        "options": [
-            "A) CH3COOH",
-            "B) HCl",
-            "C) HNO3",
-            "D) NaCl"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "Which gas is produced during respiration?",
-        "options": [
-            "A) Oxygen",
-            "B) Carbon dioxide",
-            "C) Nitrogen",
-            "D) Hydrogen"
-        ],
-        "answer": "B"
-    },
-    {
-        "question": "What is the chemical formula of hydrogen sulfide?",
-        "options": [
-            "A) H2S",
-            "B) HCl",
-            "C) HNO3",
-            "D) H2SO4"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "Which of the following is a metalloid?",
-        "options": [
-            "A) Iron",
-            "B) Silicon",
-            "C) Sodium",
-            "D) Copper"
-        ],
-        "answer": "B"
-    },
-    {
-        "question": "What is the chemical formula of carbon monoxide?",
-        "options": [
-            "A) CO2",
-            "B) CO",
-            "C) CO3",
-            "D) C2O"
-        ],
-        "answer": "B"
-    },
-    {
-        "question": "Which of the following is a hydrocarbon?",
-        "options": [
-            "A) H2O",
-            "B) CO2",
-            "C) CH4",
-            "D) NaCl"
-        ],
-        "answer": "C"
-    },
-    {
-        "question": "What is the chemical formula of sulfur dioxide?",
-        "options": [
-            "A) SO3",
-            "B) SO2",
-            "C) SO4",
-            "D) S2O"
-        ],
-        "answer": "B"
-    },
-    {
-        "question": "Which of the following is a metal?",
-        "options": [
-            "A) Oxygen",
-            "B) Carbon",
-            "C) Gold",
-            "D) Silicon"
-        ],
-        "answer": "C"
-    },
-    {
-        "question": "What is the chemical formula of carbonic acid?",
-        "options": [
-            "A) H2CO3",
-            "B) HCl",
-            "C) NaHCO3",
-            "D) HNO3"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "Which of the following is a non-metal?",
-        "options": [
-            "A) Calcium",
-            "B) Sodium",
-            "C) Oxygen",
-            "D) Iron"
-        ],
-        "answer": "C"
+        "answer": 3
     }
-]
+];

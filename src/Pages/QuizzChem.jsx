@@ -26,6 +26,7 @@ function QuizzChem() {
     };
 
     const changeQuestion = () => {
+        updateScore()
         if (currentQuestionIndex < 4) {
             setCurrentQuestionIndex(currentQuestionIndex + 1);
             setClickedOption(0);
@@ -34,11 +35,11 @@ function QuizzChem() {
         }
     };
 
-    const updateScore = () => {
-        if (clickedOption === QuizDataChem.findIndex((question) => question === shuffledQuestions[currentQuestionIndex])) {
-            setScore(score + 1);
+    const updateScore=()=>{
+        if(clickedOption===QuizDataChem[currentQuestionIndex].answer){
+            setScore(score+1);
         }
-    };
+    }
 
     const resetAll = () => {
         setShowResult(false);

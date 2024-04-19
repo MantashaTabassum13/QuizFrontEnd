@@ -26,19 +26,35 @@ function QuizzPhy() {
     };
 
     const changeQuestion = () => {
+        updateScore()
         if (currentQuestionIndex < 4) {
             setCurrentQuestionIndex(currentQuestionIndex + 1);
             setClickedOption(0);
         } else {
             setShowResult(true);
         }
+        
     };
+    // const updateScore = () => {
+    //     if (clickedOption === QuizDataPhy.findIndex((question) => question === shuffledQuestions[currentQuestionIndex])) {
+    //         setScore(score + 1);
 
-    const updateScore = () => {
-        if (clickedOption === QuizDataPhy.findIndex((question) => question === shuffledQuestions[currentQuestionIndex])) {
-            setScore(score + 1);
+    //     }
+    // };
+
+    const updateScore=()=>{
+        if(clickedOption===QuizDataPhy[currentQuestionIndex].answer){
+            setScore(score+1);
         }
-    };
+    }
+  
+
+    // const updateScore = () => {
+    //     if (currentQuestion.options[clickedOption - 1] === currentQuestion.answer) {
+    //         setScore(score + 1);
+    //     }
+    // };
+    
 
     const resetAll = () => {
         setShowResult(false);

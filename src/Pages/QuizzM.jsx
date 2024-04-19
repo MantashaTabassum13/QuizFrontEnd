@@ -26,6 +26,7 @@ function QuizzM() {
     };
 
     const changeQuestion = () => {
+        updateScore()
         if (currentQuestionIndex < 4) {
             setCurrentQuestionIndex(currentQuestionIndex + 1);
             setClickedOption(0);
@@ -34,11 +35,11 @@ function QuizzM() {
         }
     };
 
-    const updateScore = () => {
-        if (clickedOption === QuizDataM.findIndex((question) => question === shuffledQuestions[currentQuestionIndex])) {
-            setScore(score + 1);
+    const updateScore=()=>{
+        if(clickedOption===QuizDataM[currentQuestionIndex].answer){
+            setScore(score+1);
         }
-    };
+    }
 
     const resetAll = () => {
         setShowResult(false);

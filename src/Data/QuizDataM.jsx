@@ -1,4 +1,4 @@
-export const QuizDataM =[
+export const QuizDataM = [
     {
         "question": "What is the value of 2 + 2?",
         "options": [
@@ -7,7 +7,7 @@ export const QuizDataM =[
             "C) 5",
             "D) 6"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the square root of 16?",
@@ -17,7 +17,7 @@ export const QuizDataM =[
             "C) 6",
             "D) 8"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of pi (π) to two decimal places?",
@@ -27,7 +27,7 @@ export const QuizDataM =[
             "C) 3.16",
             "D) 3.18"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the area of a square with side length 5 units?",
@@ -37,7 +37,7 @@ export const QuizDataM =[
             "C) 30 sq. units",
             "D) 35 sq. units"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of 3 * 4 + 2?",
@@ -47,7 +47,7 @@ export const QuizDataM =[
             "C) 18",
             "D) 20"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the perimeter of a rectangle with length 8 units and width 6 units?",
@@ -57,7 +57,7 @@ export const QuizDataM =[
             "C) 28 units",
             "D) 32 units"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the value of 5^2?",
@@ -67,7 +67,7 @@ export const QuizDataM =[
             "C) 30",
             "D) 35"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of log10(100)?",
@@ -77,7 +77,7 @@ export const QuizDataM =[
             "C) 3",
             "D) 4"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the sum of the interior angles of a triangle?",
@@ -87,7 +87,7 @@ export const QuizDataM =[
             "C) 180 degrees",
             "D) 360 degrees"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the value of sin(90 degrees)?",
@@ -97,7 +97,7 @@ export const QuizDataM =[
             "C) -1",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of cos(0 degrees)?",
@@ -107,7 +107,7 @@ export const QuizDataM =[
             "C) -1",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the slope of a horizontal line?",
@@ -117,7 +117,7 @@ export const QuizDataM =[
             "C) Undefined",
             "D) Infinite"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the area of a circle with radius 4 units?",
@@ -127,7 +127,7 @@ export const QuizDataM =[
             "C) 16 sq. units",
             "D) 20 sq. units"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the value of loge(e)?",
@@ -137,7 +137,7 @@ export const QuizDataM =[
             "C) e",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of tan(45 degrees)?",
@@ -147,7 +147,7 @@ export const QuizDataM =[
             "C) -1",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the volume of a cube with side length 3 units?",
@@ -157,7 +157,7 @@ export const QuizDataM =[
             "C) 18 cubic units",
             "D) 27 cubic units"
         ],
-        "answer": "D"
+        "answer": 4
     },
     {
         "question": "What is the value of sin(30 degrees)?",
@@ -167,7 +167,7 @@ export const QuizDataM =[
             "C) 1",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of tan(60 degrees)?",
@@ -177,7 +177,7 @@ export const QuizDataM =[
             "C) √3",
             "D) Undefined"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the value of log2(8)?",
@@ -187,7 +187,7 @@ export const QuizDataM =[
             "C) 4",
             "D) 5"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of cos(90 degrees)?",
@@ -197,7 +197,7 @@ export const QuizDataM =[
             "C) -1",
             "D) Undefined"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the value of tan(0 degrees)?",
@@ -207,7 +207,7 @@ export const QuizDataM =[
             "C) -1",
             "D) Undefined"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the value of 4! (factorial of 4)?",
@@ -217,7 +217,7 @@ export const QuizDataM =[
             "C) 24",
             "D) 48"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the value of log5(125)?",
@@ -227,7 +227,7 @@ export const QuizDataM =[
             "C) 3",
             "D) 4"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the value of √(16 * 4)?",
@@ -237,7 +237,7 @@ export const QuizDataM =[
             "C) 16",
             "D) 64"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of sin(0 degrees)?",
@@ -247,7 +247,7 @@ export const QuizDataM =[
             "C) -1",
             "D) Undefined"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the value of cos(30 degrees)?",
@@ -257,7 +257,7 @@ export const QuizDataM =[
             "C) 1",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of log3(27)?",
@@ -267,7 +267,7 @@ export const QuizDataM =[
             "C) 3",
             "D) 4"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the value of tan(45 degrees)?",
@@ -277,7 +277,7 @@ export const QuizDataM =[
             "C) -1",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of π to three decimal places?",
@@ -287,7 +287,7 @@ export const QuizDataM =[
             "C) 3.143",
             "D) 3.144"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of log10(1000)?",
@@ -297,7 +297,7 @@ export const QuizDataM =[
             "C) 3",
             "D) 4"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the area of a triangle with base 6 units and height 8 units?",
@@ -307,7 +307,7 @@ export const QuizDataM =[
             "C) 32 sq. units",
             "D) 48 sq. units"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the value of loge(e)?",
@@ -317,7 +317,7 @@ export const QuizDataM =[
             "C) e",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of 5^3?",
@@ -327,7 +327,7 @@ export const QuizDataM =[
             "C) 375",
             "D) 500"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the value of cos(45 degrees)?",
@@ -337,7 +337,7 @@ export const QuizDataM =[
             "C) 1",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of tan(30 degrees)?",
@@ -347,7 +347,7 @@ export const QuizDataM =[
             "C) 1",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of log4(64)?",
@@ -357,7 +357,7 @@ export const QuizDataM =[
             "C) 3",
             "D) 4"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the volume of a sphere with radius 5 units?",
@@ -367,7 +367,7 @@ export const QuizDataM =[
             "C) 150 cubic units",
             "D) 200 cubic units"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the value of sin(60 degrees)?",
@@ -377,7 +377,7 @@ export const QuizDataM =[
             "C) 1",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of tan(90 degrees)?",
@@ -387,7 +387,7 @@ export const QuizDataM =[
             "C) -1",
             "D) Undefined"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the value of log7(49)?",
@@ -397,7 +397,7 @@ export const QuizDataM =[
             "C) 3",
             "D) 4"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of sin(45 degrees)?",
@@ -407,7 +407,7 @@ export const QuizDataM =[
             "C) 1",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of cos(60 degrees)?",
@@ -417,7 +417,7 @@ export const QuizDataM =[
             "C) 1",
             "D) Undefined"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the value of tan(180 degrees)?",
@@ -427,7 +427,7 @@ export const QuizDataM =[
             "C) -1",
             "D) Undefined"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the value of log8(64)?",
@@ -437,7 +437,7 @@ export const QuizDataM =[
             "C) 3",
             "D) 4"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the volume of a cylinder with radius 3 units and height 8 units?",
@@ -447,7 +447,7 @@ export const QuizDataM =[
             "C) 144 cubic units",
             "D) 192 cubic units"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the value of sin(120 degrees)?",
@@ -457,7 +457,7 @@ export const QuizDataM =[
             "C) 1",
             "D) Undefined"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of tan(135 degrees)?",
@@ -467,7 +467,7 @@ export const QuizDataM =[
             "C) 1",
             "D) Undefined"
         ],
-        "answer": "D"
+        "answer": 4
     },
     {
         "question": "What is the value of log6(36)?",
@@ -477,7 +477,7 @@ export const QuizDataM =[
             "C) 3",
             "D) 4"
         ],
-        "answer": "B"
+        "answer": 2
     },
     {
         "question": "What is the value of cos(120 degrees)?",
@@ -487,7 +487,7 @@ export const QuizDataM =[
             "C) -0.5",
             "D) 1"
         ],
-        "answer": "C"
+        "answer": 3
     },
     {
         "question": "What is the value of tan(180 degrees)?",
@@ -497,7 +497,7 @@ export const QuizDataM =[
             "C) -1",
             "D) Undefined"
         ],
-        "answer": "A"
+        "answer": 1
     },
     {
         "question": "What is the value of log9(81)?",
@@ -507,6 +507,6 @@ export const QuizDataM =[
             "C) 3",
             "D) 4"
         ],
-        "answer": "B"
+        "answer": 2
     }
-]
+];
