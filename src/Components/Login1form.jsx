@@ -27,7 +27,7 @@ export default function Example({  }) {
 
     try {
       // Send a request to add new user
-      const response = await axios.post('http://localhost:8080/addNewUser', formData);
+      const response = await axios.post('https://quizbackend-tkse.onrender.com/addNewUser', formData);
       console.log(response.data); // Assuming the response contains relevant data
 
       // Redirect to the OTP component
